@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Premium ATS-friendly resume website for Nitesh Kumar Mall, Aspiring AI & Full Stack Developer."
+    />
+    <title>Nitesh Kumar Mall | Resume</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="app-shell">
+        <div class="pointer-events-none fixed-bg" aria-hidden="true">
+          <div class="blob blob-left"></div>
+          <div class="blob blob-right"></div>
+          <div class="blob blob-bottom"></div>
+        </div>
+
+        <header class="navbar">
+          <nav class="navbar-inner">
+            <a href="#home" class="brand">Nitesh<span class="brand-dot">.</span></a>
+
+            <div class="nav-links">
+              <a href="#about" class="nav-link">About</a>
+              <a href="#skills" class="nav-link">Skills</a>
+              <a href="#education" class="nav-link">Education</a>
+              <a href="#experience" class="nav-link">Experience</a>
+              <a href="#projects" class="nav-link">Projects</a>
+              <a href="#certifications" class="nav-link">Certifications</a>
+              <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <a
+              href="https://github.com/niteshkumarmall6415"
+              target="_blank"
+              rel="noreferrer"
+              class="hire-me"
+              aria-label="GitHub Profile"
+            >
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              <span style="margin-left: 8px;">GitHub</span>
+            </a>
+
+            <a href="#contact" class="hire-me">Hire Me</a>
+
+            <button type="button" class="nav-toggle" aria-label="Toggle navigation">
+              <span class="icon icon-menu" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="3" y1="6" x2="21" y2="6"/>
+                  <line x1="3" y1="12" x2="21" y2="12"/>
+                  <line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+              </span>
+              <span class="icon icon-x" aria-hidden="true" style="display:none">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="6" x2="6" y2="18"/>
+                  <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+              </span>
+            </button>
+          </nav>
+
+          <div class="mobile-menu" hidden>
+            <div class="mobile-grid">
+              <a href="#about" class="mobile-link">About</a>
+              <a href="#skills" class="mobile-link">Skills</a>
+              <a href="#education" class="mobile-link">Education</a>
+              <a href="#experience" class="mobile-link">Experience</a>
+              <a href="#projects" class="mobile-link">Projects</a>
+              <a href="#contact" class="mobile-link">Contact</a>
+            </div>
+          </div>
+        </header>
+
+        <main>
+          <section id="home" class="section-shell hero">
+            <div class="hero-left anim-fade-up">
+              <span class="section-kicker">
+                <span class="sparkles" aria-hidden="true">
+
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+
+
+                    <path d="M12 2l1.5 5L19 9l-5.5 2L12 16l-1.5-5L5 9l5.5-2L12 2z"/>
+                    <path d="M5 13l.8 2.6L8.5 16l-2.7.4L5 19l-.8-2.6L1.5 16l2.7-.4L5 13z"/>
+                    <path d="M19 13l.8 2.6 2.7.4-2.7.4L19 19l-.8-2.6-2.7-.4 2.7-.4L19 13z"/>
+                  </svg>
+                </span>
+
+              </span>
+              <h1 class="hero-title">
+                NITESH KUMAR <span class="hero-title-gradient">Mall</span>
+              </h1>
+              <p class="hero-subtitle">Aspiring AI and Web Developer</p>
+              <p class="hero-lead">Aspiring AI and Web Developer with strong interest in impactful technology solutions.</p>
+
+              <div class="hero-cta">
+                <a
+                  href="./Nitesh-Kumar-Mall-Resume (4) photo.pdf"
+                  download
+                  class="btn btn-primary"
+                  id="resume-btn-primary"
+                >
+                  <span class="btn-icon" aria-hidden="true">
+                    <i class="fa-solid fa-download"></i>
+                  </span>
+                  Download Resume
+                </a>
+                <a href="#projects" class="btn btn-outline-cyan">
+                  View Projects
+                  <span class="btn-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M7 17L17 7"/>
+                      <path d="M7 7h10v10"/>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-right anim-zoom" data-anim-delay="100">
+              <div class="hero-bg-blur"></div>
+              <div class="premium-card hero-card">
+                <div class="hero-card-corner"></div>
+                  <div class="hero-card-inner">
+                    <img class="hero-profile-img" src="./image.png" alt="Profile image" style="width: 220px; height: 220px; object-fit: cover; border-radius: 50%; margin: 0 auto; display: block;" />
+
+                  <div class="hero-nm">NM</div>
+                  <div class="hero-snapshot">
+                    <div>
+                      <p class="snapshot-kicker">Profile Snapshot</p>
+                      <h2 class="snapshot-title">C, Python, and Web Development</h2>
+                    </div>
+                    <div class="snapshot-grid">
+                      <div class="snapshot-item">
+                        <div class="icon-placeholder" aria-hidden="true">
+                          <i class="fa-solid fa-code"></i>
+                        </div>
+                        <p class="snapshot-label">Core Skills</p>
+                        <p class="snapshot-value">C, Python, React JS</p>
+                      </div>
+                      <div class="snapshot-item">
+                        <div class="icon-placeholder" aria-hidden="true">
+                          <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <p class="snapshot-label">AI / Practice</p>
+                        <p class="snapshot-value">TensorFlow, Keras, PyTorch</p>
+                      </div>
+                      <div class="snapshot-item">
+                        <div class="icon-placeholder" aria-hidden="true">
+                          <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <p class="snapshot-label">Location</p>
+                        <p class="snapshot-value">Madhuban Mau, Uttar Pradesh</p>
+                      </div>
+                      <div class="snapshot-item">
+                        <div class="icon-placeholder" aria-hidden="true">
+                          <i class="fa-solid fa-bullseye"></i>
+                        </div>
+                        <p class="snapshot-label">Focus</p>
+                        <p class="snapshot-value">AI-driven projects &amp; problem solving</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="about" class="section-shell">
+            <div class="about-grid">
+              <div>
+                <span class="section-kicker">Career Objective</span>
+                <h2 class="about-title">A practical developer profile built for growhh.</h2>
+              </div>
+              <p class="about-copy">
+                Aspiring AI and Web Developer with strong interest in impactful technology solutions. Proficient in C, Python, and web development, with a solid foundation in problem-solving and a passion for learning. Eager to contribute to innovative and real-world projects that drive meaningful outcomes.
+              </p>
+
+            </div>
+            <div class="about-cards">
+              <article class="premium-card about-card anim-in" style="--d:0ms">
+                <div class="about-icon" aria-hidden="true">
+                  <i class="fa-solid fa-chess-queen"></i>
+                </div>
+                <h3 class="about-card-title">Problem-Solving</h3>
+                <p class="about-card-copy">Strong foundation in analytical problem-solving with a growth learning mindset.</p>
+
+              </article>
+              <article class="premium-card about-card anim-in" style="--d:80ms">
+                <div class="about-icon" aria-hidden="true">
+                  <i class="fa-solid fa-rorot"></i>
+                </div>
+                <h3 class="about-card-title">AI Interest</h3>
+                <p class="about-card-copy">Focused on AI-driven software solutions with practical real-world impact.</p>
+
+              </article>
+              <article class="premium-card about-card anim-in" style="--d:160ms">
+                <div class="about-icon" aria-hidden="true">
+                  <i class="fa-solid fa-globe"></i>
+                </div>
+                <h3 class="about-card-title">Web Development</h3>
+                <p class="about-card-copy">Proficient in C, Python, and web development fundamentals.</p>
+              </article>
+            </div>
+          </section>
+
+          <section id="skills" class="section-shell">
+            <div class="max-w-3xl">
+              <span class="section-kicker">Skills Summary</span>
+              <h2 class="section-h2">Technical toolkit and professional strengths.</h2>
+            </div>
+            <div class="skills-grid">
+              <article class="premium-card skills-card anim-hover anim-in" style="--d:0ms">
+                <div class="skills-icon" aria-hidden="true"><i class="fa-solid fa-code"></i></div>
+                <h3 class="skills-title">Languages</h3>
+                <div class="skills-tags"><span>Python</span><span>C</span><span>React js</span></div>
+              </article>
+              <article class="premium-card skills-card anim-hover anim-in" style="--d:70ms">
+                <div class="skills-icon" aria-hidden="true"><i class="fa-solid fa-screwdriver-wrenchiver-wrench"></i></div>
+                <h3 class="skills-title">Tools</h3>
+                <div class="skills-tags"><span>Power BI</span><span>MS Office</span></div>
+              </article>
+              <article class="premium-card skills-card anim-hover anim-in" style="--d:140ms">
+                <div class="skills-icon" aria-hidden="true"><i class="fa-solid fa-laptop"></i></div>
+                <h3 class="skills-title">Platforms</h3>
+                <div class="skills-tags"><span>Windows</span><span>VS Code</span></div>
+              </article>
+              <article class="premium-card skills-card anim-hover anim-in" style="--d:210ms">
+                <div class="skills-icon" aria-hidden="true"><i class="fa-solid fa-server"></i></div>
+                <h3 class="skills-title">Web Technologies</h3>
+                <div class="skills-tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JavaScript</span></div>
+              </article>
+              <article class="premium-card skills-card anim-hover anim-in" style="--d:280ms">
+                <div class="skills-icon" aria-hidden="true"><i class="fa-solid fa-people-group"></i></div>
+                <h3 class="skills-title">Soft Skills</h3>
+                <div class="skills-tags"><span>Leadership</span><span>Communication</span></div>
+              </article>
+            </div>
+          </section>
+
+          <section id="education" class="section-shell">
+            <div class="max-w-3xl">
+              <span class="section-kicker">Education</span>
+              <h2 class="section-h2">Academic foundation and relevant coursework.</h2>
+            </div>
+            <div class="timeline">
+              <div class="timeline-line"></div>
+              <article class="premium-card timeline-item anim-in" style="--d:0ms">
+                <div class="timeline-badge" aria-hidden="true"><i class="fa-solid fa-graduation-cap"></i></div>
+                <p class="timeline-meta">Oct 2022 - July 2026</p>
+                <h3 class="timeline-title">Buddha Institute of Technology Gorakhpur, India</h3>
+                <p class="timeline-copy">B.Tech - Information Technology | Relevant Courses: Web Development, Data Structure, C, Python</p>
+
+
+              </article>
+              <article class="premium-card timeline-item anim-in" style="--d:80ms">
+                <div class="timeline-badge" aria-hidden="true"><i class="fa-solid fa-school"></i></div>
+                <p class="timeline-meta">July 2020 - March 2022</p>
+                <h3 class="timeline-title">Shubhagi Devi Inter College Madhuban Mau</h3>
+                <p class="timeline-copy">India | Intermediate - PCM</p>
+
+              </article>
+              <article class="premium-card timeline-item anim-in" style="--d:160ms">
+                <div class="timeline-badge" aria-hidden="true"><i class="fa-solid fa-book-open"></i></div>
+                <p class="timeline-meta">April 2019 - February 2020</p>
+
+                <h3 class="timeline-title">Shubhagi Devi Inter College Madhuban Mau</h3>
+                <p class="timeline-copy">India | High School</p>
+
+              </article>
+            </div>
+          </section>
+
+          <section id="experience" class="section-shell">
+            <div class="experience-grid">
+              <div>
+                <span class="section-kicker">Experience</span>
+                <h2 class="section-h2">Internships and professional training.</h2>
+              </div>
+              <div class="experience-cards">
+                <article class="premium-card exp-card anim-in" style="--d:0ms">
+                  <div class="exp-top">
+                    <div>
+                      <div class="exp-role-icon" aria-hidden="true"><i class="fa-solid fa-briefcase"></i></div>
+                      <h3 class="exp-role">AICTE - Codec Technology (via Google for education Partner)</h3>
+                      <div class="exp-pills"><span class="pill pill-soft">Remote</span><span class="pill pill-cyan">Python Programming</span></div>
+                    </div>
+                    <span class="exp-period">Sep - Nov 2024</span>
+                  </div>
+                  <div class="exp-points">
+                <div class="exp-point"><i class="fa-solid fa-check" aria-hidden="true"></i> Completed a 4-week internship with TechSaksham focused on Python.</div>
+
+                    <div class="exp-point"><i class="fa-solid fa-check" aria-hidden="true"></i> Worked on Image Classification using TensorFlow framework and Keras module.</div>
+                  </div>
+                </article>
+                <article class="premium-card exp-card anim-in" style="--d:80ms">
+                  <div class="exp-top">
+                    <div>
+                      <div class="exp-role-icon" aria-hidden="true"><i class="fa-solid fa-network-wired"></i></div>
+                      <h3 class="exp-role">IBM Skillsuild</h3>
+                      <div class="exp-pills"><span class="pill pill-cyan">Agentic AI: From Learner to Builder - Become an AI Agent Architect</span></div>
+
+                    </div>
+                    <span class="exp-period">4 weeks</span>
+                  </div>
+                  <div class="exp-points">
+                    <div class="exp-point"><i class="fa-solid fa-check" aria-hidden="true"></i> Completed a 4-week training program by IBM SkillsBuild.</div>
+
+                    <div class="exp-point"><i class="fa-solid fa-check" aria-hidden="true"></i> Developed an AI Chatbot capable of communicating with patients and detecting brain tumor possibilities based on responses.</div>
+                  </div>
+                </article>
+                <article class="premium-card exp-card anim-in" style="--d:160ms">
+                  <div class="exp-top">
+                    <div>
+                      <div class="exp-role-icon" aria-hidden="true"><i class="fa-solid fa-code"></i></div>
+                      <h3 class="exp-role">EISystem Technologies (Technex IIT BHU)</h3>
+                      <div class="exp-pills"><span class="pill pill-cyan">Website Development</span><span class="pill pill-soft">Remote</span></div>
+                    </div>
+                    <span class="exp-period">July - Aug 2025</span>
+                  </div>
+                  <div class="exp-points">
+                    <div class="exp-point"><i class="fa-solid fa-check" aria-hidden="true"></i> Completed a 6-week training at EISystem Technologies on Web Development.</div>
+
+
+
+
+                    <div class="exp-point"><i class="fa-solid fa-check" aria-hidden="true"></i> Developed CampusConnect, a college campus webpage.</div>
+
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section id="projects" class="section-shell">
+            <div class="projects-head">
+              <div class="max-w-3xl">
+                <span class="section-kicker">Projects</span>
+                <h2 class="section-h2">Portfolio work with product-minded structure.</h2>
+              </div>
+              <p class="projects-sub">Project details are aligned with the provided resume and organized for quick recruiter scanning.</p>
+            </div>
+            <div class="projects-grid">
+              <article class="project-card anim-in" style="--d:0ms">
+                <div class="project-featured">
+                  <div class="project-featured-tag">Featured Build</div>
+                </div>
+                <div class="project-body">
+                  <h3 class="project-title">E-Commerce Website (2nd year)</h3>
+                  <p class="project-desc">E-commerce platform for secure browsing, product management, and order tracking.</p>
+                  <div class="project-bullets">
+                    <p class="project-bullet"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Implemented responsive UI using HTML/CSS/React.</p>
+                    <p class="project-bullet"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Integrated product management and order tracking.</p>
+                  </div>
+                  <div class="project-tags"><span>HTML</span><span>CSS</span><span>React</span><span>Authentication</span></div>
+                  <div class="project-cta">
+                    <a href="#contact" class="project-btn project-btn-primary">Discuss <span class="arrow">↗</span></a>
+                    <a href="#contact" class="project-btn project-btn-secondary"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card anim-in" style="--d:80ms">
+                <div class="project-featured">
+                  <div class="project-featured-tag">Featured Build</div>
+                </div>
+                <div class="project-body">
+                  <h3 class="project-title">AI Career Guidance System (3rd year)</h3>
+                  <p class="project-desc">Career recommendations based on skills, interests, and educational background.</p>
+                  <div class="project-bullets">
+                    <p class="project-bullet"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Implemented machine learning algorithms for personalized recommendations.</p>
+                    <p class="project-bullet"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Designed an interactive UI for seamless real-time guidance.</p>
+                  </div>
+
+                  <div class="project-tags"><span>AI</span><span>Machine Learning</span><span>Recommendations</span></div>
+                  <div class="project-cta">
+                    <a href="#contact" class="project-btn project-btn-primary">Discuss <span class="arrow">↗</span></a>
+                    <a href="#contact" class="project-btn project-btn-secondary"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card anim-in" style="--d:160ms">
+                <div class="project-body">
+                  <h3 class="project-title">Instant Health Care Solution (Final Year Project)</h3>
+                  <p class="project-desc">AI-based web application using React and Python for healthcare prediction workflows.</p>
+                  <div class="project-bullets">
+                    <p class="project-bullet"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Trained models on datasets using Computer Vision approaches.</p>
+                    <p class="project-bullet"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Used TensorFlow framework for training computer vision models.</p>
+                  </div>
+                  <div class="project-tags"><span>AI</span><span>Computer Vision</span><span>Python</span><span>React</span></div>
+                  <div class="project-cta">
+                    <a href="#contact" class="project-btn project-btn-primary">Discuss <span class="arrow">↗</span></a>
+                    <a href="#contact" class="project-btn project-btn-secondary"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card anim-in" style="--d:240ms">
+                <div class="project-body">
+                  <h3 class="project-title">E-Commerce Data Visualization Dashboard</h3>
+                  <p class="project-desc">Interactive dashboard for analyzing sales performance, customer trends, product insights, and business decision-making.</p>
+                  <div class="project-bullets">
+                    <p class="project-bullet"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Designed responsive visual reports for sales growth, revenue trends, customer behavior, and product performance.</p>
+                    <p class="project-bullet"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Built clean data representations to support business analysis and better decision-making.</p>
+                  </div>
+                  <div class="project-tags"><span>Power BI</span><span>Data Visualization</span><span>Dashboard Analytics</span><span>Business Intelligence</span><span>Data Analysis</span></div>
+                  <div class="project-cta">
+                    <a href="#contact" class="project-btn project-btn-primary">Discuss <span class="arrow">↗</span></a>
+                    <a href="#contact" class="project-btn project-btn-secondary"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section id="certifications" class="section-shell">
+            <div class="max-w-3xl">
+              <span class="section-kicker">Certifications</span>
+              <h2 class="section-h2">Certifications and leadership activities.</h2>
+            </div>
+            <div class="certs-grid">
+              <article class="premium-card cert-card anim-in" style="--d:0ms">
+                <div class="cert-icon" aria-hidden="true"><i class="fa-solid fa-award"></i></div>
+                <h3 class="cert-title">Certifications</h3>
+                <div class="cert-list">
+                  <p>IBM SkillsBuild - Become an AI Agent Architect</p>
+
+                  <p>AIIP - Certified in C, HTML, CSS, Python</p>
+
+                  <p>Udemy - Workplace Stress Management Strategies</p>
+                  <p>Codec Technology - Python Programming</p>
+                  <p>Buddha Institute of Technology - Tech Yuva 2025</p>
+                  <p>BIT - Sports (carrom 2nd position)</p>
+
+                  <p>IEEE Membership Certificate</p>
+
+                </div>
+              </article>
+              <article class="premium-card cert-card anim-in" style="--d:80ms">
+                <div class="cert-icon" aria-hidden="true"><i class="fa-solid fa-people-group"></i></div>
+                <h3 class="cert-title">Leadership &amp; Extracurriculars</h3>
+                <div class="cert-list">
+                  <p>IEEE Volunteer in 2nd IEEE International Conference on IoT, Communication and Automation Technology (ICICAT-2024)</p>
+                  <p>IEEE Member</p>
+                  <p>IEEE Computer Society Member</p>
+                  <p>IEEE Women in Engineering Member</p>
+                  <p>Internet of Things Community member</p>
+                  <p>CMR THINKFEST 2.0 (Participation Certification)</p>
+                  <p>Captain of Long Jump &amp; High Jump at Buddha Institute of Technology</p>
+                </div>
+              </article>
+              <article class="premium-card cert-card anim-in" style="--d:160ms">
+                <div class="cert-icon" aria-hidden="true"><i class="fa-solid fa-graduation-cap"></i></div>
+                <h3 class="cert-title">Professional Development</h3>
+                <div class="cert-list">
+                  <p>Agentic AI</p>
+                  <p>Python Programming</p>
+                  <p>Web Development</p>
+                  <p>IEEE participation</p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section id="contact" class="section-shell">
+            <div class="premium-card contact-card">
+              <div class="contact-grid">
+                <div class="anim-in" style="--d:0ms">
+                  <span class="section-kicker">Contact</span>
+                  <h2 class="contact-title">Ready for internships, projects, and entry-level roles.</h2>
+                  <p class="contact-copy">Contact details match the provided resume. Download the ATS-friendly resume for quick review.</p>
+                  <div class="mt-8">
+                    <a
+                      href="./Nitesh-Kumar-Mall-Resume (4) photo.pdf"
+                      download
+                      class="btn btn-secondary"
+                      id="resume-btn-secondary"
+                    >
+                      <span class="btn-icon" aria-hidden="true"><i class="fa-solid fa-download"></i></span>
+                      Download Resume
+                    </a>
+                  </div>
+                </div>
+                <div class="contact-grid-cards">
+                  <a class="contact-item" href="mailto:mallnitesh534@gmail.com">
+                    <div class="contact-item-icon" aria-hidden="true"><i class="fa-solid fa-envelope"></i></div>
+                    <p class="contact-item-label">Email</p>
+                    <p class="contact-item-value">mallnitesh534@gmail.com</p>
+                  </a>
+                  <a class="contact-item" href="tel:+918115085483">
+                    <div class="contact-item-icon" aria-hidden="true"><i class="fa-solid fa-phone"></i></div>
+                    <p class="contact-item-label">Phone</p>
+                    <p class="contact-item-value">+91 8115085483</p>
+                  </a>
+                  <a class="contact-item" href="#contact">
+                    <div class="contact-item-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></div>
+                    <p class="contact-item-label">Location</p>
+                    <p class="contact-item-value">Madhuban Mau, Uttar Pradesh</p>
+                  </a>
+                  <a class="contact-item" href="https://www.linkedin.com/in/nitesh-kumar-mall-41b995325" target="_blank" rel="noreferrer">
+                    <div class="contact-item-icon" aria-hidden="true"><i class="fa-brands fa-linkedin"></i></div>
+                    <p class="contact-item-label">LinkedIn</p>
+                    <p class="contact-item-value">nitesh-kumar-mall-41b995325</p>
+                  </a>
+
+                  <a class="contact-item" href="https://github.com/niteshkumarmall6415" target="_blank" rel="noreferrer">
+                    <div class="contact-item-icon" aria-hidden="true"><i class="fa-brands fa-github"></i></div>
+                    <p class="contact-item-label">GitHub</p>
+                    <p class="contact-item-value">niteshkumarmall6415</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </main>
+
+        <footer class="footer">
+          <div class="footer-inner">
+            <p>© 2026 Nitesh Kumar Mall. Premium ATS-friendly resume website.</p>
+            <div class="footer-links">
+              <a href="#home">Top</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
